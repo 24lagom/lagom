@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ic_register">
+
+    <LinearLayout
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:elevation="10dp"
+            app:cornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/btn_recordmanage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@mipmap/revenue" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="收支管理"
+                android:textColor="#252020"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:padding="24dp"
+            android:elevation="10dp"
+            app:cornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/btn_searchrecord"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@mipmap/look" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看收支"
+                android:textColor="#FF252020"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:padding="24dp"
+            android:elevation="10dp"
+            app:cornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/btn_exit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/ic_user" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="个人中心"
+                android:textColor="#FF252020"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:padding="24dp"
+            android:elevation="10dp"
+            app:cornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/btn_calcmoney"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/statics" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收支统计"
+                android:textColor="#FF252020"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

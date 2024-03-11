@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/baseline_handyman_24"
+        android:id="@+id/menu_manage"
+        android:title="收支管理"/>
+    <item
+        android:icon="@drawable/baseline_search_24"
+        android:id="@+id/menu_query"
+        android:title="收支统计"/>
+    <item
+        android:icon="@drawable/baseline_account_circle_24"
+        android:id="@+id/menu_my"
+        android:title="我的信息"/>
+</menu>
